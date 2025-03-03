@@ -1,0 +1,3 @@
+[submodule "libs/vineflower"]
+	path = libs/vineflower
+	url = https://github.com/steviegt6/vineflower

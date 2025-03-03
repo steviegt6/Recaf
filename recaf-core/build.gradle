@@ -8,6 +8,8 @@ apply plugin: 'java-library'
 apply plugin: 'java-test-fixtures'
 
 dependencies {
+    implementation project(':libs:vineflower')
+
     api(libs.bundles.asm)
     api(libs.binary.resources)
     api(libs.cafedude)
@@ -37,7 +39,7 @@ dependencies {
     api(libs.jlinker)
     api(libs.regex)
     api(libs.bundles.jasm)
-    api(libs.vineflower)
+    //api(libs.vineflower)
     api(libs.wordwrap)
     api(libs.sourcesolver)
 

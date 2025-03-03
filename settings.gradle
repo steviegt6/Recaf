@@ -3,6 +3,9 @@ rootProject.name = 'Recaf'
 include 'recaf-core'
 include 'recaf-ui'
 
+include ':libs:vineflower'
+// project(':vineflower').projectDir = new File(settingsDir, 'libs/vineflower')
+
 buildCache {
     local {
         enabled = true
